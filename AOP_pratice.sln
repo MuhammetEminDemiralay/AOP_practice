@@ -5,11 +5,15 @@ VisualStudioVersion = 17.7.34202.233
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Proxy", "Proxy", "{B7FF6C5C-9870-449A-86B5-45C4258EB182}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProxyApp", "ProxyApp\ProxyApp.csproj", "{5053E78E-6AB7-40A9-9C77-FC51E0003BE4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProxyApp", "ProxyApp\ProxyApp.csproj", "{5053E78E-6AB7-40A9-9C77-FC51E0003BE4}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Basics", "Basics", "{3A1F2834-7F97-4D3A-B40E-B5922CA111DA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CastleDynamicProxyApp", "CastleDynamicProxyApp\CastleDynamicProxyApp.csproj", "{191CAD35-8D9E-4064-8A31-73E3595F3C17}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CastleDynamicProxyApp", "CastleDynamicProxyApp\CastleDynamicProxyApp.csproj", "{191CAD35-8D9E-4064-8A31-73E3595F3C17}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InvocationApp", "InvocationApp\InvocationApp.csproj", "{CB206BB8-0F99-4491-8BED-EFFF1E024FC0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Entities", "Entities\Entities.csproj", "{1359423C-DB30-4AAB-97AA-3A0854C69862}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -25,6 +29,14 @@ Global
 		{191CAD35-8D9E-4064-8A31-73E3595F3C17}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{191CAD35-8D9E-4064-8A31-73E3595F3C17}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{191CAD35-8D9E-4064-8A31-73E3595F3C17}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CB206BB8-0F99-4491-8BED-EFFF1E024FC0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CB206BB8-0F99-4491-8BED-EFFF1E024FC0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CB206BB8-0F99-4491-8BED-EFFF1E024FC0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CB206BB8-0F99-4491-8BED-EFFF1E024FC0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1359423C-DB30-4AAB-97AA-3A0854C69862}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1359423C-DB30-4AAB-97AA-3A0854C69862}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1359423C-DB30-4AAB-97AA-3A0854C69862}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1359423C-DB30-4AAB-97AA-3A0854C69862}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -32,6 +44,7 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{5053E78E-6AB7-40A9-9C77-FC51E0003BE4} = {B7FF6C5C-9870-449A-86B5-45C4258EB182}
 		{191CAD35-8D9E-4064-8A31-73E3595F3C17} = {3A1F2834-7F97-4D3A-B40E-B5922CA111DA}
+		{CB206BB8-0F99-4491-8BED-EFFF1E024FC0} = {3A1F2834-7F97-4D3A-B40E-B5922CA111DA}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {4D2C6B38-E80D-45D9-8598-F3DB3B6330CA}
